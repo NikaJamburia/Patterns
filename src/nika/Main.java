@@ -12,7 +12,8 @@ public class Main {
                 new LoggedFacade(new DecoratorFacade(), "Decorator"),
                 new LoggedFacade(new ObserverFacade(), "Observer"),
                 new LoggedFacade(new FactoryFacade(), "Factory"),
-                new LoggedFacade(new SingletonFacade(), "Singleton")
+                new LoggedFacade(new SingletonFacade(), "Singleton"),
+                new LoggedFacade(new CommandFacade(), "Command")
         );
         facades.forEach(Facade::compose);
     }
