@@ -1,4 +1,4 @@
-package nika.Decorator.iceCream;
+package nika.decorator.iceCream;
 
 public class ChocolateIceCream implements IceCream {
 	private String name;

@@ -1,6 +1,6 @@
-package nika.Decorator.topping;
+package nika.decorator.topping;
 
-import nika.Decorator.iceCream.IceCream;
+import nika.decorator.iceCream.IceCream;
 
 public class CacaoTopping extends Topping {
 	private String name;

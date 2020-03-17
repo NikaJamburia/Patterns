@@ -1,4 +1,4 @@
-package nika.Decorator.iceCream;
+package nika.decorator.iceCream;
 
 public interface IceCream { // A component
 	String getName();

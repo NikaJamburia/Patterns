@@ -1,7 +1,7 @@
-package nika.Facade;
+package nika.facade;
 
-import nika.Observer.TemperatureDisplay;
-import nika.Observer.Thermometer;
+import nika.observer.TemperatureDisplay;
+import nika.observer.Thermometer;
 
 public class ObserverFacade {
 	public ObserverFacade() {

@@ -1,4 +1,4 @@
-package nika.Observer;
+package nika.observer;
 
 public interface Observer {
 	void update();

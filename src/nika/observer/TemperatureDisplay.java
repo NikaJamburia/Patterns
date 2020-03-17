@@ -1,4 +1,4 @@
-package nika.Observer;
+package nika.observer;
 
 public class TemperatureDisplay implements Observer {
 	private Integer temperature;

@@ -1,7 +1,7 @@
 package nika;
 
-import nika.Facade.DecoratorFacade;
-import nika.Facade.ObserverFacade;
+import nika.facade.DecoratorFacade;
+import nika.facade.ObserverFacade;
 
 public class Main {
 

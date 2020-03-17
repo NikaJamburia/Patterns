@@ -1,4 +1,4 @@
-package nika.Decorator.iceCream;
+package nika.decorator.iceCream;
 
 public class VanillaIceCream implements IceCream {
 

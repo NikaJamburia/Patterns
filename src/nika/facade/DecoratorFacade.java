@@ -1,10 +1,10 @@
-package nika.Facade;
+package nika.facade;
 
-import nika.Decorator.iceCream.ChocolateIceCream;
-import nika.Decorator.iceCream.IceCream;
-import nika.Decorator.iceCream.VanillaIceCream;
-import nika.Decorator.topping.CacaoTopping;
-import nika.Decorator.topping.CoconutTopping;
+import nika.decorator.iceCream.ChocolateIceCream;
+import nika.decorator.iceCream.IceCream;
+import nika.decorator.iceCream.VanillaIceCream;
+import nika.decorator.topping.CacaoTopping;
+import nika.decorator.topping.CoconutTopping;
 
 public class DecoratorFacade {
 	public DecoratorFacade() {
