@@ -16,7 +16,8 @@ public class Main {
                 new LoggedFacade(new CommandFacade(), "Command"),
                 new LoggedFacade(new AdapterFacade(), "Adapter"),
                 new LoggedFacade(new ProxyFacade(), "Proxy"),
-                new LoggedFacade(new TemplateMethodFacade(), "TemplateMethod")
+                new LoggedFacade(new TemplateMethodFacade(), "TemplateMethod"),
+                new LoggedFacade(new StrategyFacade(), "Strategy")
         );
         facades.forEach(Facade::compose);
     }
